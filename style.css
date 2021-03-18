@@ -1,0 +1,102 @@
+*{
+    margin: 0 20px;
+    padding: 0;
+
+}
+
+body{
+
+    background-color: blanchedalmond;
+    font-family: 'Shippori Mincho', serif;
+}
+
+#note{
+    text-align: center;
+    color:rgb(80, 67, 49);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+main{
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#poem-holder{
+
+    padding: 10px;
+    bottom: 0px;
+    width: 40vw;
+
+}
+
+h2{
+    color:rgb(158, 132, 98);
+}
+
+h3{
+    color:rgb(80, 67, 49);
+    font-size: 1rem;
+
+}
+
+h4{
+    text-align: right;
+    color:rgb(80, 67, 49);
+    font-size: 1rem;
+}
+
+
+#poem-holder p{
+    text-align: right;
+    color:rgb(44, 37, 27);
+    
+
+}
+
+#clock{
+    font-size: 10rem;
+  
+}
+
+header{
+    position:relative;
+    top: 0px;
+    left: 0px;
+    width: 40vw;
+}
+
+@media only screen and (max-width: 1200px) {
+    /* For mobile phones: */
+    header{
+        position: unset;
+        width: unset;
+    }
+
+    main{
+        padding-top: unset;
+    }
+
+    body{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #clock{
+        position: unset;
+        padding-top: unset;
+    }
+
+    #poem-holder{
+        width:unset;
+        margin-top:unset;
+    }
+
+
+ 
+  
+  }
