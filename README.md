@@ -1,0 +1,3 @@
+# a quatrain a day...
+
+for personal use <3
