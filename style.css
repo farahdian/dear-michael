@@ -89,12 +89,15 @@ header{
     #clock{
         position: unset;
         padding-top: unset;
+
     }
 
     #poem-holder{
-        width:unset;
+        width:80vw;
         margin-top:unset;
     }
+
+    
 
 
  

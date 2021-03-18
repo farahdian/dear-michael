@@ -9,11 +9,11 @@ function getNotes(){
   var date= new Date();
   var hour = date.getHours();
         console.log(hour);
-        if (hour>5 && hour<8){
+        if (hour>=5 && hour<=8){
           note.innerHTML+=`<p>${msgArray[0]}</p>`
-        }else if (hour>9 && hour<17){
+        }else if (hour>=9 && hour<=17){
           note.innerHTML+=`<p>${defaultMsg}</p>`
-        }else if (hour>18 && hour<23){
+        }else if (hour>=18 && hour<=23){
           note.innerHTML+=`<p>${msgArray[1]}</p>`
         }else{
           note.innerHTML+= `<p>${msgArray[2]}</p>`
