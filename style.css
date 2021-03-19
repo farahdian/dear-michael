@@ -24,6 +24,32 @@ main{
     justify-content: flex-end;
 }
 
+#thought-tracker{
+    text-align: left;
+}
+
+#ttform{
+    border-radius: 30px;
+    padding: 10px;
+    border-color: burlywood;
+    border-style: solid;
+    color: burlywood;
+    background-color: transparent;
+}
+
+#ttform:hover{
+    border-color:darkred;
+    color:darkred;
+    background-color: white;
+}
+
+#ttform:focus{
+    border-color:whitesmoke;
+    color:white;
+    background-color: darkred;
+
+}
+
 #poem-holder{
 
     padding: 10px;

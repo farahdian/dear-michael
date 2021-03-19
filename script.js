@@ -3,6 +3,7 @@ const poemDiv = document.getElementById('poem-holder')
 let defaultMsg = 'For the times you find yourself feeling too much or not enough.'
 var msgArray =["You're up early, I hope that means you're looking forward to today.<i class='far fa-sun'></i>","Thinking about you.<i class='fas fa-cloud'></i>","Get some sleep, whatever's keeping you up will still be there tomorrow.<i class='fas fa-bed'></i>"]
 const note = document.getElementById('note')
+const ttbutton =document.getElementById('ttform')
 
 
 function getNotes(){
@@ -70,3 +71,7 @@ var date = new Date(); /* creating object of Date class */
       }
       
       currentTime();
+
+      ttbutton.addEventListener('click', function(event){
+        ttbutton.innerHTML += `<p>$0.01</p>`;
+      })
