@@ -2,6 +2,8 @@
 
 for personal use <3
 
+visit the site here: https://dreamy-sammet-441f64.netlify.app/
+
 There are only three compenents to this web app:
 
 1. a simple clock
@@ -13,6 +15,6 @@ Here's the API if you're interested: https://poetrydb.org/index.html
 
 The "a penny for your thoughts" button links to a thought record form. The form is based on a mix of CBT sheets I've worked with and a therapy bot called Woebot. The data is then posted to an Airtable that will record each submission.
 
-There's also what I'll call the note element(Michael,...Farah x). It shows a different message depending on the time of day. I'll let you figure that one out ;)
+There's also what I'll call the note element(Michael,...Farah x). It shows a different message depending on the time of day you open it. I'll let you figure that one out ;)
 
 
