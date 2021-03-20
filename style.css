@@ -123,6 +123,14 @@ header{
         margin-top:unset;
     }
 
+    #thought-tracker{
+        margin: 5%;
+    }
+
+    #ttform{
+        font-size: 1rem;
+    }
+
     
 
 
