@@ -1,3 +1,4 @@
+
 # a quatrain a day...
 
 ## view the live site here: https://dreamy-sammet-441f64.netlify.app/
@@ -6,7 +7,10 @@
 
 It's best viewed on a laptop. I haven't tested out desktop view as much, leaves some empty space but it still suits it. If you intend to view it on your phone, turning it landscape is best. It's still legible in portrait view but not as pretty.
 
+![rotatedemo](https://user-images.githubusercontent.com/72678356/111862265-2f30fb80-898f-11eb-8d73-07d6c8ec6138.gif)
+
 ## About
+![Safari • Dark Mode ON](https://user-images.githubusercontent.com/72678356/111862138-4ae7d200-898e-11eb-8231-3dc00b924d92.png)
 
 ### The web app has 3 components:
 ```
