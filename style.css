@@ -24,9 +24,7 @@ main{
     justify-content: flex-end;
 }
 
-#thought-tracker{
-    text-align: left;
-}
+
 
 #ttform{
     text-align: center;
@@ -131,6 +129,7 @@ header{
     #poem-holder{
         width:80vw;
         margin-top:unset;
+        text-align: right;
     }
 
     #thought-tracker{
