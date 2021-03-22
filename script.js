@@ -73,9 +73,6 @@ var date = new Date(); /* creating object of Date class */
       
       currentTime();
 
-      ttbutton.addEventListener('click', function(event){
-        ttbutton.innerHTML += `<p>$0.01</p>`;
-      })
 
     function changeDarkMode(color){
     var date = new Date();

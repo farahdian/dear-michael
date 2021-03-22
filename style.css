@@ -29,6 +29,7 @@ main{
 }
 
 #ttform{
+    text-align: center;
     border-radius: 30px;
     padding: 10px;
     border-color: burlywood;
@@ -37,7 +38,16 @@ main{
     background-color: transparent;
 }
 
+#ttform p{
+    opacity: 0;
+}
+
+#ttform p:hover{
+    opacity: 100%;
+}
+
 #ttform:hover{
+    cursor: pointer;
     border-color:darkred;
     color:darkred;
     background-color: white;
