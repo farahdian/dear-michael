@@ -1,7 +1,7 @@
 const baseUrl = "https://poetrydb.org"
 const poemDiv = document.getElementById('poem-holder')
-let defaultMsg = 'For the times you find yourself feeling too much or not enough.'
-var msgArray =["You're up early, I hope that means you're looking forward to today.<i class='far fa-sun'></i>","Thinking about you.<i class='fas fa-cloud'></i>","Get some sleep, whatever's keeping you up will still be there tomorrow.<i class='fas fa-bed'></i>"]
+let defaultMsg = 'For the times you find yourself feeling too much or not enough. I hope you find some solace and resonance in these poems.'
+var msgArray =["You're up early, I hope that means you're looking forward to today.<i class='far fa-sun'></i>","Thinking about you.<i class='fas fa-cloud'></i>","Try to get some sleep, whatever's keeping you up will still be there tomorrow.<i class='fas fa-bed'></i>"]
 const note = document.getElementById('note')
 const ttbutton =document.getElementById('ttform')
 
@@ -10,14 +10,14 @@ function getNotes(){
   var date= new Date();
   var hour = date.getHours();
         console.log(hour);
-        if (hour>=5 && hour<=8){
+        if (hour>=5 && hour<=9){
           note.innerHTML+=`<p>${msgArray[0]}</p>`
-        }else if (hour>=9 && hour<=17){
-          note.innerHTML+=`<p>${defaultMsg}</p>`
-        }else if (hour>=18 && hour<=23){
+        }else if (hour>=14 && hour<=16){
           note.innerHTML+=`<p>${msgArray[1]}</p>`
+        }else if (hour>=22 || hour<=4){
+          note.innerHTML+=`<p>${msgArray[2]}</p>`
         }else{
-          note.innerHTML+= `<p>${msgArray[2]}</p>`
+          note.innerHTML+= `<p>${defaultMsg}</p>`
         }
 
 
