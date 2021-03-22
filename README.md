@@ -10,7 +10,6 @@ It's best viewed on a laptop. I haven't tested out desktop view as much, leaves 
 ![rotatedemo](https://user-images.githubusercontent.com/72678356/111862265-2f30fb80-898f-11eb-8d73-07d6c8ec6138.gif)
 
 ## About
-![Safari • Dark Mode ON](https://user-images.githubusercontent.com/72678356/111862138-4ae7d200-898e-11eb-8231-3dc00b924d92.png)
 
 ### The web app has 3 components:
 ```
@@ -18,14 +17,17 @@ It's best viewed on a laptop. I haven't tested out desktop view as much, leaves 
 2. the poem generator 📝
 3. the "a penny for your thoughts" feature 💭
 ```
-There's also what I'll call the note element *(Michael,...Farah x)*. It shows a different message depending on the time of day you open it. I'll let you find all the messages.
 
 The poem generator grabs a random four-lined poem from the PoetryDB API. It generates a new quatrain each time you load the page.
 Here's the API, if you're interested: https://github.com/thundercomb/poetrydb
 
+There's also what I'll call the note element *(Michael,...Farah x)*. It shows a different message depending on the time of day you open it. I'll let you find all the messages.
+
+The site also changes color depending on the time of day, automatically going into dark mode at night.
+
 ### "A penny for your thoughts"
 
-The "a penny for your thoughts" button links to a thought record form. The form is based on a mix of CBT sheets I've worked with and a therapy bot called Woebot. The responses are then recorded on an Airtable. Of course I'll be transfering base ownership accordingly. Thought it was a more enjoyable user experience than just filling in a table, with the benefit of maybe even being able to wrangle some thought/mood patterns once there are enough responses, since having it as an Airtable also makes it into it's own API with documentation. (Like a personalized data viz coming soon? We shall see...) I'm also thinking of "adding a penny" each time a form is filled that will log onto the main page.
+The "a penny for your thoughts" button links to a thought record form. The form is based on a mix of CBT sheets I've worked with and a therapy bot called Woebot. The responses are then recorded on an Airtable. Of course I'll be transfering base ownership accordingly. Thought it was a more enjoyable user experience than just filling in a table, with the benefit of being able to wrangle some thought/mood patterns once there are enough responses, since having it as an Airtable also makes it into it's own API. (Like thought quote cards or even a personalized data viz coming soon? We shall see...) I'm also thinking of "adding a penny" each time a form is filled that will log onto the main page.
 
 ## I hope you enjoy it!
 
