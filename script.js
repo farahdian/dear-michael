@@ -34,6 +34,7 @@ showPoem = results =>{
         ` <div class="animate__animated animate__slideInUp">
         <div class="poemhead"><h2>${result.title}</h2>
             <h3> ${result.author}</h3></div>
+            <div id="poemtext">
             <p>${result.lines[0]}</p>
             <p>${result.lines[1]}</p>
             <p>${result.lines[2]}</p>
@@ -75,3 +76,12 @@ var date = new Date(); /* creating object of Date class */
       ttbutton.addEventListener('click', function(event){
         ttbutton.innerHTML += `<p>$0.01</p>`;
       })
+
+    function changeDarkMode(color){
+    var date = new Date();
+    var hour = date.getHours();
+if(hour >=19 || hour <= 6) {
+      var element= document.body;
+      element.classList.add("darkmode")
+    }
+}
