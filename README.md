@@ -29,10 +29,10 @@ The site also changes color depending on the time of day, automatically going in
 
 The *"a penny for your thoughts"* button links to a thought record form. The form is based on a mix of CBT sheets I've worked with and a therapy bot called Woebot. The responses are then recorded on an Airtable, and you can categorise them by feelings, themes, cognitive distortions etc. You can view and edit the Airtable and form by clicking the *"View all your recorded thoughts"* button. Thought it was a more enjoyable user experience than just filling in a table, with the benefit of being able to wrangle some thought/mood patterns once there are enough responses, since having it as an Airtable also makes it into it's own API. (Like thought quote cards or even a personalized data viz coming soon? We shall see...) 
 
-## I hope you like it!
+## Hope you like it!
 
 This is my first proper GitHub project where I've *finally* figured out how to use git. So yeah some things need refining, but the beauty of it is I can add new changes and the site will update itself automatically.
 
-**So let me know what you think of it and dm if you have any qs!**
+**So let me know what you think of it and if you have any qs!**
 
 
