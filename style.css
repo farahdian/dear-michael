@@ -24,16 +24,53 @@ main{
     justify-content: flex-end;
 }
 
+#thought-tracker{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
 
-
-#ttform{
+button{
     text-align: center;
     border-radius: 30px;
     padding: 10px;
-    border-color: burlywood;
     border-style: solid;
-    color: burlywood;
     background-color: transparent;
+}
+
+#records{
+    border-color: burlywood;
+    color: burlywood; 
+}
+
+#records:hover{
+    cursor: pointer;
+    background-color: white;
+    border-color: rgb(221, 158, 76);
+    color:  rgb(221, 158, 76); 
+}
+
+#records:focus{
+    cursor: pointer;
+    background-color: whitesmoke;
+
+}
+
+#records p{
+    font-style: italic;
+    opacity: 0;
+}
+
+#records p:hover{
+    opacity: 100%;
+}
+
+
+#ttform{
+    border-color:rgb(80, 67, 49);
+    color: rgb(80, 67, 49);
+    
 }
 
 #ttform p{
@@ -62,7 +99,7 @@ main{
 
     padding: 10px;
     bottom: 0px;
-    width: 40vw;
+    width: 50vw;
 
 }
 
@@ -109,6 +146,14 @@ header{
         width: unset;
     }
 
+    #thought-tracker{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left:10%;
+
+    }
+
     main{
         padding-top: unset;
     }
@@ -132,9 +177,10 @@ header{
         text-align: right;
     }
 
-    #thought-tracker{
-        margin: 5%;
+    #records{
+        margin-bottom: 10%;
     }
+
 
     #ttform{
         font-size: 1rem;
