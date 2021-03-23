@@ -37,25 +37,25 @@ button{
     padding: 10px;
     border-style: solid;
     background-color: transparent;
-}
-
-#records{
     border-color: burlywood;
     color: burlywood; 
 }
 
-#records:hover{
+button:hover{
     cursor: pointer;
     background-color: white;
     border-color: rgb(221, 158, 76);
     color:  rgb(221, 158, 76); 
+
 }
 
-#records:focus{
+button:focus{
     cursor: pointer;
     background-color: whitesmoke;
 
 }
+
+
 
 #records p{
     font-style: italic;
@@ -67,11 +67,7 @@ button{
 }
 
 
-#ttform{
-    border-color:rgb(80, 67, 49);
-    color: rgb(80, 67, 49);
-    
-}
+
 
 #ttform p{
     opacity: 0;
@@ -81,19 +77,7 @@ button{
     opacity: 100%;
 }
 
-#ttform:hover{
-    cursor: pointer;
-    border-color:darkred;
-    color:darkred;
-    background-color: white;
-}
 
-#ttform:focus{
-    border-color:whitesmoke;
-    color:white;
-    background-color: darkred;
-
-}
 
 #poem-holder{
 
