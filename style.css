@@ -17,6 +17,10 @@ body{
     font-weight: bold;
 }
 
+#msg{
+    width: 40vw;
+}
+
 main{
 
     display: flex;
@@ -29,6 +33,7 @@ main{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding: 2%;
 }
 
 button{
@@ -43,7 +48,7 @@ button{
 
 button:hover{
     cursor: pointer;
-    background-color: white;
+    background-color: rgb(252, 241, 225);
     border-color: rgb(221, 158, 76);
     color:  rgb(221, 158, 76); 
 
@@ -51,13 +56,14 @@ button:hover{
 
 button:focus{
     cursor: pointer;
-    background-color: whitesmoke;
+    background-color: black;
 
 }
 
 
 
 #records p{
+    font-size: 12px;
     font-style: italic;
     opacity: 0;
 }
@@ -81,8 +87,8 @@ button:focus{
 
 #poem-holder{
 
-    padding: 10px;
-    bottom: 0px;
+    margin: 3%;
+
     width: 50vw;
 
 }
@@ -120,65 +126,150 @@ header{
     position:relative;
     top: 0px;
     left: 0px;
-    width: 40vw;
+    display: flex;
+    padding: 1%;
 }
 
-@media only screen and (max-width: 1200px) {
-    /* For mobile phones: */
-    header{
-        position: unset;
-        width: unset;
+#righthead{
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#lefthead{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#meditate{
+    width: 30vw;
+}
+
+
+
+  @media only screen and (max-width: 1106px) {
+
+header{
+    flex-direction: column;
+}
+
+#lefthead{
+    justify-content: center;
+}
+
+#msg{
+    width:unset;
+    justify-content: stretch;
+}
+
+main{
+    flex-direction: column;
+}
+
+#poem-holder{
+    width: unset;
+    justify-content: stretch;
+    margin: 5%;
+}
+
+
+
+#meditate{
+  width: unset;
+  justify-content: stretch;
+
+}
+
+
+#thought-tracker{
+justify-content: stretch;
+}
+
+#poem-holder{
+  margin:unset;
+  justify-content: stretch;
+}
+
+button{
+  margin: 5%;
+}
+
+#righthead{
+  justify-content: stretch;
+}
+
+#msg{
+  width:unset;
+
+}
+ 
+
+  }
+
+  @media only screen and (max-width: 700px){
+    #clock{
+        font-size: 5rem;
+    }
+
+  }
+
+  @media only screen and (max-width: 400px){
+    #clock{
+        font-size: 3rem;
     }
 
     #thought-tracker{
-        display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        padding-left:10%;
-
     }
 
-    main{
-        padding-top: unset;
-    }
-
-    body{
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #clock{
-        position: unset;
-        padding-top: unset;
-
-    }
-
-    #poem-holder{
-        width:80vw;
-        margin-top:unset;
-        text-align: right;
-    }
-
-    #records{
-        margin-bottom: 10%;
-        font-size: 1rem;
-    }
-
-    #records p{
-        font-size: small;
-    }
-
-
-    #ttform{
-        font-size: 1rem;
-    }
- 
   }
 
+ /* @media only screen and (max-width: 400px) {
+      #clock{
+          font-size: 60px;
+      }
+
+      #meditate{
+        width: unset;
+        justify-content: stretch;
+
+    }
+
+    
+    #thought-tracker{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+    #poem-holder{
+        margin:unset;
+        justify-content: stretch;
+    }
+
+    button{
+        margin: 5%;
+    }
+
+    #righthead{
+        justify-content: stretch;
+    }
+
+    #msg{
+        width:unset;
+ 
+    }
+
+
+
+
+  }*/
+
+
+
+
   .darkmode{
-      background-color:rgb(0, 0, 20);
+      background-color:rgb(0, 0, 0);
       color:blanchedalmond;
   }
 

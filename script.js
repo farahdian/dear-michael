@@ -82,3 +82,7 @@ if(hour >=19 || hour <= 6) {
       element.classList.add("darkmode")
     }
 }
+
+function playMyAudio(){
+  document.getElementById("meditation").play();
+}

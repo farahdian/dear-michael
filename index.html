@@ -17,10 +17,18 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
 <body onload="currentTime(), getNotes(), changeDarkMode()">
     <header class="animate__animated animate__fadeInLeft">
+        <div id="righthead">
         <div id="clock"></div>
+        <div id="msg">
         <h3>Michael,</h3>
         <div id="note"></div>
         <h4>Farah x</h4>
+        </div>
+        </div>
+        <div id="lefthead">
+        <audio src="assets/audio/emotion-exposure.mp3" id="meditation"></audio>
+        <button id="meditate" onclick="playMyAudio()">A guided meditation script I liked because it reminded me of that episode when Aang was unblocking all his chakras</button>
+        </div>
 
     </header>
 
