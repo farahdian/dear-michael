@@ -3,12 +3,6 @@
 
 ## view the live site here: https://dreamy-sammet-441f64.netlify.app/
 
-### Quick note on viewports
-
-It's best viewed on a laptop. I haven't tested out desktop view as much, leaves some empty space but it still suits it. If you intend to view it on your phone, turning it landscape is best. It's still legible in portrait view but not as pretty.
-
-![rotatedemo](https://user-images.githubusercontent.com/72678356/111862265-2f30fb80-898f-11eb-8d73-07d6c8ec6138.gif)
-
 ## About
 
 ### The web app has 3 components:
