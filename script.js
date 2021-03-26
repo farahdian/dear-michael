@@ -84,7 +84,15 @@ if(hour >=19 || hour <= 6) {
 }
 
 function playMyAudio(){
-  document.getElementById("meditation").play();
+  var audio = document.getElementById("meditation")
+  var audioBtn = document.getElementById("meditate")
+  audio.controls = true;
+  audio.play();
+  audioBtn.style.backgroundColor ="rgb(14, 14, 14)"
+  audio.onended = function(){
+    audio.controls = false;
+    audioBtn.style.backgroundColor ="transparent"
+  };
 }
 
 function mOver(obj) {

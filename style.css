@@ -66,16 +66,6 @@ button:focus{
 }
 
 
-
-/*#records p{
-    font-size: 10px;
-    font-style: italic;
-    opacity: 0;
-}
-
-#records p:hover{
-    opacity: 100%;
-}*/
 #meditate{
     display: flex;
     flex-direction: column;
