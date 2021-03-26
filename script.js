@@ -86,3 +86,11 @@ if(hour >=19 || hour <= 6) {
 function playMyAudio(){
   document.getElementById("meditation").play();
 }
+
+function mOver(obj) {
+  obj.innerHTML = ` <i class="far fa-clipboard" ></i> View recorded thoughts`
+}
+
+function mOut(obj) {
+  obj.innerHTML = `<lottie-player src="https://assets4.lottiefiles.com/temp/lf20_D0nz3r.json"  background="transparent"  speed=".5"  style="width: 25px; height: 25px;"  loop  autoplay></lottie-player>For your eyes only...`
+}

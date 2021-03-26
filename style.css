@@ -8,6 +8,7 @@ body{
 
     background-color: blanchedalmond;
     font-family: 'Shippori Mincho', serif;
+    cursor: crosshair;
 }
 
 #note{
@@ -37,7 +38,11 @@ main{
 }
 
 button{
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
     border-radius: 30px;
     padding: 10px;
     border-style: solid;
@@ -56,32 +61,29 @@ button:hover{
 
 button:focus{
     cursor: pointer;
-    background-color: black;
+    background-color:rgb(14, 14, 14);
 
 }
 
 
 
-#records p{
-    font-size: 12px;
+/*#records p{
+    font-size: 10px;
     font-style: italic;
     opacity: 0;
 }
 
 #records p:hover{
     opacity: 100%;
+}*/
+#meditate{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
 }
 
-
-
-
-#ttform p{
-    opacity: 0;
-}
-
-#ttform p:hover{
-    opacity: 100%;
-}
 
 
 
@@ -138,13 +140,10 @@ header{
 
 #lefthead{
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: center;
 }
 
-#meditate{
-    width: 30vw;
-}
 
 
 
@@ -155,7 +154,7 @@ header{
 }
 
 #lefthead{
-    justify-content: center;
+    justify-content: stretch;
 }
 
 #msg{

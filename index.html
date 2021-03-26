@@ -13,6 +13,7 @@ rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 />
 <script src="https://kit.fontawesome.com/6c4d155670.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 
 <body onload="currentTime(), getNotes(), changeDarkMode()">
@@ -27,18 +28,21 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         </div>
         <div id="lefthead">
         <audio src="assets/audio/emotion-exposure.mp3" id="meditation"></audio>
-        <button id="meditate" onclick="playMyAudio()">A guided meditation script I liked because it reminded me of that episode when Aang was unblocking all his chakras</button>
+        <button id="meditate" onclick="playMyAudio()"><lottie-player src="https://assets4.lottiefiles.com/temp/lf20_8ZHoy2.json"  background="transparent"  speed=".7"  style="width: 100px; height: 100px;" hover loop  ></lottie-player>Unblock your chakras</button>
+     
         </div>
+       
+
 
     </header>
 
     <main>
         <div id="thought-tracker">
         <div>
-        <button id="records" class="animate__animated animate__flipInX" onclick="window.location.href='https://airtable.com/invite/l?inviteId=invpoIq2bgUq8Dgo4&inviteToken=b5ac6a0e5bf32bb08aa60a322dd16e982bc35ee4deaab208b7a86e24cf175bad'">View all your recorded thoughts<i class="far fa-clipboard"></i><p>for your eyes only...</p></button>
+        <button id="records" class="animate__animated animate__flipInX" onmouseover="mOver(this)" onmouseout="mOut(this)" onclick="window.location.href='https://airtable.com/invite/l?inviteId=invpoIq2bgUq8Dgo4&inviteToken=b5ac6a0e5bf32bb08aa60a322dd16e982bc35ee4deaab208b7a86e24cf175bad'"><lottie-player src="https://assets4.lottiefiles.com/temp/lf20_D0nz3r.json"  background="transparent"  speed=".5"  style="width: 25px; height: 25px;"   loop  autoplay></lottie-player>For your eyes only...</button>
         </div>
         <div>
-        <button id="ttform" class="animate__animated animate__flipInX"onclick="window.location.href ='https://airtable.com/shrvweam3feMCxqmC';">A penny for your thoughts<i class="fas fa-coins"></i><p>+ $0.01</p></button>
+        <button id="ttform" class="animate__animated animate__flipInX"onclick="window.location.href ='https://airtable.com/shrvweam3feMCxqmC';"><i class="fas fa-coins"></i>A penny for your thoughts</button>
         </div>
         </div>
 
