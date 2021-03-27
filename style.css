@@ -134,7 +134,26 @@ header{
     justify-content: center;
 }
 
+footer{
+    margin: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
 
+}
+
+#info{
+    right: 0px;
+    cursor: pointer;
+}
+
+#info:hover{
+    color:rgb(83, 72, 57);
+}
+
+#info:focus{
+    color:burlywood;
+}
 
 
   @media only screen and (max-width: 1106px) {
@@ -214,48 +233,7 @@ button{
 
   }
 
- /* @media only screen and (max-width: 400px) {
-      #clock{
-          font-size: 60px;
-      }
-
-      #meditate{
-        width: unset;
-        justify-content: stretch;
-
-    }
-
-    
-    #thought-tracker{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-    #poem-holder{
-        margin:unset;
-        justify-content: stretch;
-    }
-
-    button{
-        margin: 5%;
-    }
-
-    #righthead{
-        justify-content: stretch;
-    }
-
-    #msg{
-        width:unset;
  
-    }
-
-
-
-
-  }*/
-
-
-
 
   .darkmode{
       background-color:rgb(26, 25, 36);
