@@ -100,5 +100,5 @@ function mOver(obj) {
 }
 
 function mOut(obj) {
-  obj.innerHTML = `<lottie-player src="https://assets4.lottiefiles.com/temp/lf20_D0nz3r.json"  background="transparent"  speed=".5"  style="width: 20px; height: 20px;"  loop  autoplay></lottie-player>For your eyes only...`
+  obj.innerHTML = `<lottie-player src="https://assets4.lottiefiles.com/temp/lf20_D0nz3r.json"  background="transparent"  speed=".5"  style="width: 30px; height: 15px;"  loop  autoplay></lottie-player>For your eyes only...`
 }
