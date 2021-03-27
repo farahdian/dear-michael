@@ -18,6 +18,11 @@ body{
     font-weight: bold;
 }
 
+#note lottie-player{
+    position:relative;
+    margin:auto;
+}
+
 #msg{
     width: 40vw;
 }

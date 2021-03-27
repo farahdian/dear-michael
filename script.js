@@ -1,7 +1,7 @@
 const baseUrl = "https://poetrydb.org"
 const poemDiv = document.getElementById('poem-holder')
 let defaultMsg = 'For the times you find yourself feeling too much or not enough. I hope you find some solace and resonance in these poems.'
-var msgArray =["You're up early, I hope that means you're looking forward to today.<i class='far fa-sun'></i>","Thinking about you.<i class='fas fa-cloud'></i>","Try to get some sleep, whatever's keeping you up will still be there tomorrow.<i class='fas fa-bed'></i>"]
+var msgArray =["You're up early, I hope that means you're looking forward to today.<i class='far fa-sun'></i>","Thinking about you.<i class='fas fa-cloud'></i>",`Dinner hack: <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_bxmfhd0g.json"  background="transparent"  speed="1"  style="width: 90px; height: 90px;"  loop  autoplay></lottie-player>Itsu goes half price soon`,"Try to get some sleep, whatever's keeping you up will still be there tomorrow.<i class='fas fa-bed'></i>"]
 const note = document.getElementById('note')
 const ttbutton =document.getElementById('ttform')
 
@@ -14,8 +14,10 @@ function getNotes(){
           note.innerHTML+=`<p>${msgArray[0]}</p>`
         }else if (hour>=14 && hour<=16){
           note.innerHTML+=`<p>${msgArray[1]}</p>`
-        }else if (hour>=22 || hour<=4){
+        }else if (hour>=19 && hour<=21){
           note.innerHTML+=`<p>${msgArray[2]}</p>`
+        }else if (hour>=22 || hour<=4){
+          note.innerHTML+=`<p>${msgArray[3]}</p>`
         }else{
           note.innerHTML+= `<p>${defaultMsg}</p>`
         }
