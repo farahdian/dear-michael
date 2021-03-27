@@ -13,7 +13,7 @@ function getNotes(){
           note.innerHTML+=`<p>${msgArray[0]}</p>`
         }else if (hour>=10 && hour<=12){
           note.innerHTML+=`<p>${msgArray[1]}</p>`
-        }else if (hour>=14 && hour<=16){
+        }else if (hour>=14 && hour<=15){
           note.innerHTML+=`<p>${msgArray[2]}</p>`
         }else if (hour>=19 && hour<=21){
           note.innerHTML+=`<p>${msgArray[3]}</p>`
