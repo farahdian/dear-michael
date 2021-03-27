@@ -1,7 +1,7 @@
 const baseUrl = "https://poetrydb.org"
 const poemDiv = document.getElementById('poem-holder')
 let defaultMsg = 'For the times you find yourself feeling too much or not enough. I hope you find some solace and resonance in these poems.'
-var msgArray =["You're up early, I hope that means you're looking forward to today.<i class='far fa-sun'></i>",`What I'm probably doing right now: <audio src="assets/audio/ukelele-rain.mp3" controls></audio>`,"Thinking about you.<i class='fas fa-cloud'></i>",`Dinner hack: <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_bxmfhd0g.json"  background="transparent"  speed="1"  style="width: 90px; height: 90px;"  loop  autoplay></lottie-player>Itsu goes half price soon`,"Try to get some sleep, whatever's keeping you up will still be there tomorrow.<i class='fas fa-bed'></i>"]
+var msgArray =["You're up early, I hope that means you're looking forward to today.<i class='far fa-sun'></i>",`What I'm probably doing right now: <audio src="assets/audio/ukelele-rain.mp3" controls></audio>`,"Thinking about you.<i class='fas fa-cloud'></i>",`Dinner hack: Itsu goes half price soon  <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_bxmfhd0g.json"  background="transparent"  speed="1"  style="width: 70px; height: 70px;"  loop  autoplay></lottie-player>`,"Try to get some sleep, whatever's keeping you up will still be there tomorrow.<i class='fas fa-bed'></i>"]
 const note = document.getElementById('note')
 const ttbutton =document.getElementById('ttform')
 
