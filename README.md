@@ -5,7 +5,7 @@
 
 I know you wanted bootleg Calendly premium but that shit was too hard 😢.
 
-I was not much of a great UX designer in that I had no plan making this. I worked on it whenever I've gotten into states of flow to code or an idea popped up, with the general idea of cute self-care website for Michael. So yeah some things need refining, but since I've *finally* figured out how to use git I can keep pushing new feature changes and the site will update itself automatically.
+I was not much of a great UX designer in the fact I had no plan making this 😆. I worked on it whenever I've gotten into states of flow to code or an idea popped up, with the general idea of cute self-care website for Michael. Also it's a pretty old school build (pure vanilla JS). So yeah some things need refining, but since I've *finally* figured out how to use git I can keep pushing new feature changes and the site will update itself automatically.
 
 **So let me know what you think of it and if you have any qs!**
 
